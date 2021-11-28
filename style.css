@@ -1,0 +1,217 @@
+body{
+    margin: 0px 10px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    background-image:url("https://www.wallpapertip.com/wmimgs/156-1566035_puppy-love-dog.jpg");
+    height: 750px;
+    justify-content:space-between;
+}
+
+#pic-edit{
+    display: flex;
+    width: 600px;
+    height: 600px;
+    object-fit: fill;
+    margin: 5px;
+    border: 2px solid rgb(240, 234, 234);
+    border-radius: 25px;
+}
+#div{
+    margin: 10px;
+    display: flex;
+    border: 2px solid rgb(206, 203, 194);
+    background-color: rgba(35, 43, 43, 0.308);
+    border-radius: 25px;
+    width: 50%;
+    justify-content: center; 
+    align-items: center;
+    align-content: center;
+}
+.text-content {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(206, 203, 194);
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    width: 50%;
+    color: rgb(240, 234, 234);
+    background-color: rgba(35, 43, 43, 0.308);
+}
+.text-field{
+    border: 2px solid white;
+    background-color: rgba(21, 29, 29, 0.582);
+    border-radius: 25px;
+    font-size: 30px;
+    margin: 15px;
+    padding: 15px;
+}
+#btn{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(20, 10, 1, 0.459);
+    color: rgba(149, 230, 20, 0.89);
+    border: 2px solid rgb(163, 161, 156);
+    border-radius: 15px;
+    font-size: 30px;
+    justify-content: center;
+    align-self: center;
+} 
+
+#btn:hover{
+    background-color: rgba(20, 10, 1, 0.459);
+    color: rgb(3, 175, 243);
+    cursor: pointer;
+}
+#btn:active{
+    color: rgb(50, 221, 24);
+    border: 3px solid rgb(50, 221, 24);
+    font-size: 33px;
+}
+ #heading , #breedgroup{
+    display: flex;
+    height: 70px;
+    overflow: auto;
+}
+#error{
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    justify-content: center;
+    text-decoration: underline;
+    margin-top: 35px;
+}
+
+
+@media (max-width:650px) {
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 500px;
+        }
+    .text-content{
+       height: 50%;
+       width: 95%;
+       border: none;
+    }
+    #div{
+        height: 50%;
+        width: 95%;
+    }
+    .text-field{
+        font-size: 15px;
+        margin: 4px;
+        width: 90%;
+    }
+    #pic-edit{
+        height: 200px;
+        width: 200px;
+    }
+    #error{
+        margin: 4px;
+        font-size: 15px;
+    
+    }
+    #btn{
+        font-size: 15px;
+        margin: 0px;
+    }
+    .text-btn{
+        
+        border: 2px solid white;
+        background-color: rgba(21, 29, 29, 0.582);
+        border-radius: 25px;
+        font-size: 30px;
+        margin: 15px;
+        padding: 15px;
+    
+    }
+    #btn:active{
+        font-size: 0px;
+        margin: 9px;
+    }
+
+}
+@media only screen and (min-width:650px) and (max-width:768px){
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 500px;
+    }
+.text-content{
+    height: 50%;
+    width: 95%;
+    border: none;
+}
+#div{
+    height: 50%;
+    width: 95%;
+}
+.text-field{
+    font-size: 15px;
+    margin: 4px;
+    width: 90%;
+}
+#pic-edit{
+    height: 200px;
+    width: 200px;
+}
+#error{
+    margin: 4px;
+    font-size: 15px;
+}
+#btn{
+    font-size: 15px;
+    margin: 0px;
+}
+.text-btn{
+    border: 2px solid white;
+    background-color: rgba(21, 29, 29, 0.582);
+    border-radius: 25px;
+    font-size: 30px;
+    margin: 15px;
+    padding: 15px;
+}
+#btn:active{
+    font-size: 0px;
+    margin: 9px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width:1252px){
+.container{
+    display: flex;
+    height: 30%;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.text-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 50%;
+}
+.text-field{
+   margin: 10px;
+}
+#div{
+    justify-content: center;
+}
+#pic-edit{
+    height: 250px;
+    width: 250px;
+}
+.text-btn{
+        
+    border: 2px solid white;
+    background-color: rgba(21, 29, 29, 0.582);
+    border-radius: 25px;
+    font-size: 30px;
+    margin: 15px;
+    padding: 15px;
+    width: 50%;
+   
+}
+
+}
