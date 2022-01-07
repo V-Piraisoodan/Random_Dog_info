@@ -67,7 +67,7 @@ body{
 #btn:active{
     color: rgb(50, 221, 24);
     border: 3px solid rgb(50, 221, 24);
-    font-size: 33px;
+    /* font-size: 33px; */
 }
  #heading , #breedgroup{
     display: flex;
